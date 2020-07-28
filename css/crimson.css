@@ -1,0 +1,32 @@
+.testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial-section::before,
+.products-section .owl-carousel .owl-nav button.owl-next,
+.products-section .owl-carousel .owl-nav button.owl-prev,
+.features-section .features-item:hover,
+.section-title .title::before,
+.header, .home-section {
+    background-color: #d70d25;
+}
+
+.mynav {
+    background-color: #d70d25;
+}
+
+.testimonial-section .owl-carousel .owl-nav button.owl-next,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev,
+.testimonial-section .client-info h5,
+.products-section .product-content .product-price .new-price,
+.features-section .features-item .icon i,
+.section-title .title,
+.mybtn1 {
+    color: #d70d25
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: #d70d25
+}
+
+.testimonial-section .client-info img{
+    border-color:#d70d25;
+}
