@@ -10,19 +10,37 @@
     <link rel='stylesheet' href="css/owl.carousel.min.css">
     <link rel='stylesheet' href="css/main.css">
     <link rel='stylesheet' href="css/crimson.css">
+
+    <!-- Style Switcher-->
+    <link rel='stylesheet' title='crimson' class='style-switch' href="css/crimson.css" disabled>
+    <link rel='stylesheet' title='blue' class='style-switch' href="css/blue.css" disabled>
+    <link rel='stylesheet' title='indigo' class='style-switch' href="css/indigo.css" disabled>
+    <link rel='stylesheet' title='aqua' class='style-switch' href="css/aqua.css" disabled>
+    <link rel='stylesheet' title='black' class='style-switch' href="css/black.css" disabled>
+    <link rel='stylesheet' href="css/styleSwitcher.css">
+
+
 </head>
 <body>
+
+    <!--- Page Preloader -->
+    <div class='preloader'>
+        <div class='loader'>
+
+        </div>
+    </div>
+
     <header class='header'>
         <div class='container'>
-            <nav class='navbar navbar-expand-md  navbar-light fixed-top mynav'>
-                <span class='navbar-brand ml-2'><span class='logo'></span>Creme n' Cakes</span>
+            <nav class='navbar navbar-expand-lg  navbar-light fixed-top mynav'>
+                <span class='navbar-brand'><span class='logo'></span>Creme n' Cakes</span>
                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#collapsibleNavbar'>
                     <span class='navbar-toggler-icon'></span>
                 </button>
                 <div class='collapse navbar-collapse' id='collapsibleNavbar'>
-                    <ul class='navbar-nav ml-auto'>
+                    <ul class='navbar-nav ml-auto'> 
                         <li class='nav-item '>
-                            <a class='nav-link active' href='#'>Home</a>
+                            <a class='nav-link active' href='#home'>Home</a>
                         </li>
                         <li class='nav-item'>
                             <a class='nav-link' href='#about'>About</a>
@@ -31,19 +49,19 @@
                             <a class='nav-link' href='#features' >Features</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#' >Testimonial</a>
+                            <a class='nav-link' href='#testimonial' >Testimonial</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#testimonial' >Faq</a>
+                            <a class='nav-link' href='#faq' >Faq</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#faq' >Contact</a>
+                            <a class='nav-link' href='#contact' >Contact</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#contact' >Shop</a>
+                            <a class='nav-link' href='' >Shop</a>
                         </li>
                         <li class='nav-item '>
-                            <a class='nav-link' href='#' ><i class='fas fa-shopping-cart cart'></i></a>
+                            <a class='nav-link' href='' ><i class='fas fa-shopping-cart cart'></i></a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +70,7 @@
             
         </div>
     </header>
-    <section class='home-section' style='width: 100%;'>
+    <section class='home-section' style='width: 100%;' id='home'>
         <div class='bg-shapes'>
             <div></div>
         </div>
@@ -67,7 +85,7 @@
                         <a href='' class='btn mybtn1' id='home-btn'>Shop Now</a>
                     </div>
                 </div>
-                <div class='col-lg-6'>
+                <div class='col-lg-6 '>
                     <div class='home-img'>
                         <img src='images/cake01.png'>
                     </div>
@@ -300,12 +318,13 @@
     </section>
 
     <!-- Testimonial Section-->
-    <section class='testimonial-section'>
+    <section class='testimonial-section' id='testimonial'>
         <div class='container'>
             <div class='row justify-content-center'>
                 <div class='col-lg-7'>
                     <div class='section-title'>
-                        <center><h1 class='title'>Testimonial</h1></center>
+                        <center><h1 class='title'>Testimonial</h1><br>
+                            <h3 class='subtitle text-light'>Our Satisfied Customers' Feedback</h3></center>
                         
                     </div>
                 </div>
@@ -385,6 +404,227 @@
             </div>
         </div>
     </section>
+
+    <!--- Faq Section-->
+    <section class='faq-section' id='faq'>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class='col-lg-7'>
+                    <div class='section-title'>
+                        <center>
+                            <h1 class='title'>Faq</h1><br>
+                            <h3 class='subtitle'>Frequently Asked Questions</h3>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>How much do you charge for specialty, sculpted or novelty cakes?</h4>
+                        <p>Prices vary depending on size and complexity of the design. 
+                            For specialty or novelty cakes, 
+                            <a href="https:wa.me/2349034727466?text=Hello%20Creme%20n'%20Cakes">please contact us on WhatsApp
+                                for a price quote.</a> </p>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>Where do you deliver your cakes, cookies or cupcakes</h4>
+                        <p>We do offer delivery services pending availability. We generally deliver to areas within Lagos 
+                            and Abuja only. The delivery charges vary based on the location we are delivering to.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>Your cakes are beautiful, but do they taste good too?</h4>
+                        <p>At Creme N' Cakes, we make all our cakes, cookies, bread and pastries to order. Meaning, we're
+                            baking them when you order them. We only use fresh ingredients, including real butter, milk,
+                            flour, sugar and eggs! This means our cakes not only look beautiful, but they also taste delicious.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>Can i supply my own cake design ideas?</h4>
+                        <p>Yes absolutely! We need to work together to incorporate your style and tastes into your order. 
+                            We work individually with each client to ensure your cake, cupcakes or cookies are tailored
+                            for your event.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>How far in advance should I place my order?</h4>
+                        <p>Orders should be placed at least one day in advance...but if you have a short notice order, ask us, and
+                            we'll try to get it done for you if possible. We ask that you give us at least 2 to 3 weeks notice on specialty
+                            cake orders.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-md-6'>
+                    <div class='faq-item'>
+                        <h4>Can I pick up my order at the store? Where are you located</h4>
+                        <p>Yes, you can always pick up your order within the opening hours of the store you are picking up from. We
+                            are located at:<br>
+                            1. 33, Allen Avenue, Ikeja, Lagos.<br>
+                            2. The Hive, Plot 16, Kuboye Street, Oniru, Lagos.<br>
+                            3. Creme n' Cakes, Circles Mall, Gwagalada, Abuja.
+                        </p>
+                    </div>
+                </div>
+
+                <div class='col-lg-12'>
+                    <p class='support-text text-center'>Any Questions? <a href='#'>support@cremencakes.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class='newsletter-section'>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class='col-lg-7'>
+                    <div class='section-title'>
+                        <center><h1 class='title'>Newsletter</h1><br>
+                            <h3 class='subtitle text-light'>Subscribe To Our Newsletters</h3></center>
+                    </div>
+                </div>
+            </div>
+            <div class='row justify-content-center'>
+                <div class='col-md-10 col-lg-7'>
+                    <form class='newsletter-form'>
+                        <div class='form-group'>
+                            <input type='text' class='form-control' placeholder="Enter Your Email">
+                        </div>
+                        <button type='submit' class='btn mybtn2'>
+                            <span>Subscribe</span>
+                            <i class=' fas fa-paper-plane'></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class='contact-section' id='contact'>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class='col-lg-7'>
+                    <div class='section-title'>
+                        <center><h1 class='title'>Contact Us</h1></center>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-7'>
+                   <form class='contact-form'>
+                        <div class='row'>
+                            <div class='col-md-6'>
+                                <div class='form-group'>
+                                    <input type="text" placeholder="Your Name" class='form-control'>
+                                </div>
+                            </div>
+                            <div class='col-md-6'>
+                                <div class='form-group'>
+                                    <input type="text" placeholder="Your Email" class='form-control'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <div class='form-group'>
+                                    <input type="text" placeholder="Subject" class='form-control'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <div class='form-group'>
+                                    <textarea class='form-control' placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12'>
+                                <div class='form-group'>
+                                    <button type='submit' class='btn mybtn2'>Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                   </form>
+                </div>
+                <div class='col-md-5 order-first order-md-last'>
+                    <div class='contact-item'>
+                        <div class='icon'>
+                            <i class='fas fa-map-marker-alt'></i>
+                        </div>
+                        <h5>Main Branch</h5>
+                        <p>33, Allen Avenue, Ikeja, Lagos.</p>
+                    </div>
+                    <div class='contact-item'>
+                        <div class='icon'>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <h5>Email</h5>
+                        <p>support@cremencakes.com</p>
+                    </div>
+                    <div class='contact-item'>
+                        <div class='icon'>
+                            <i class='fas fa-phone'></i>
+                        </div>
+                        <h5>Call Us On</h5>
+                        <p>+234 903 472 7466</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class='footer'>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class="col-lg-6">
+                    <div class='footer-logo'>
+                        <a href='#'><span class='logo'></span> Creme N' Cakes</a>
+                    </div>
+                    <div class='footer-text'>
+                        <p>Rebranding the Cake Culture..</p>
+                    </div>
+                    <div class='footer-social-links'>
+                        <a><i class='fab fa-facebook-f'></i></a>
+                        <a><i class='fab fa-twitter'></i></a>
+                        <a><i class='fab fa-instagram'></i></a>
+                        <a><i class='fab fa-linkedin-in'></i></a>
+                        <a><i class='fab fa-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='copyright'>
+            <p>Copyright &copy; The Creme N Cakes Bakery 2020</p>
+        </div>
+    </footer>
+
+
+    <!-- Livestyle switch-->
+    <div class='style-switcher'>
+        <div class='toggle-style-switcher'>
+            <i class='fas fa-cog fa-spin'></i>
+        </div>
+        <h5>Style Switcher</h5>
+        <ul class='list-unstyled'>
+            <li  style='background-color: #d70d25;' onclick="setActiveStyle('crimson')"></li>
+            <li  style='background-color: #4948d4;' onclick="setActiveStyle('blue')"></li>
+            <li  style='background-color: #6400ae;' onclick="setActiveStyle('indigo')"></li>
+            <li  style='background-color: #05b3b6;' onclick="setActiveStyle('aqua')"></li>
+            <li  style='background-color: #222222;' onclick="setActiveStyle('black')"></li>
+        </ul>
+    </div>
+
 
     <!--Jquery-->
     <script src="js/jquery-3.5.1.min.js"></script>

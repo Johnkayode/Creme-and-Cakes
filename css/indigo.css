@@ -13,7 +13,7 @@
 .features-section .features-item:hover,
 .section-title .title::before,
 .header, .home-section {
-    background-color: #d70d25;
+    background-color: #6400ae;
 }
 
 
@@ -29,18 +29,18 @@
 .features-section .features-item .icon i,
 .section-title .title,
 .mybtn1 {
-    color: #d70d25
+    color: #6400ae;
 }
 
 
 
 .contact-section .contact-form .form-control:focus{
-    border-color: #d37580;
+    border-color: #aa73d4;
+}
+.testimonial-section .client-info img{
+    border-color:#6400ae;
 }
 
 .preloader .loader{
-    border-right: 5px solid #d70d25;
-}
-.testimonial-section .client-info img{
-    border-color:#d70d25;
+    border-right: 5px solid #6400ae;
 }
